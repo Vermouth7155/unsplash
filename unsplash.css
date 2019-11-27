@@ -1,0 +1,52 @@
+.sp {
+    margin: 2px solid;
+    border-right: 1px solid;
+}
+.jp {
+    margin: 2px solid;
+    background-color: green;
+    color: white;
+}
+.dh {
+    border-right: 1px aolid;
+}
+.cd {
+    background-image: url(./images/background.png);
+    text-align: center;
+}
+.icon-sreach {
+    width: 120px;
+    height: 12px;
+    border-radius: 100%;
+    border: 2px solid currentColor;
+    position: relative;
+    margin: 30px auto;
+}
+.ph {
+    text-align: left;
+}
+.rm {
+    text-align: center;
+}
+.sc {
+    text-align: right;
+}
+nav {
+    background-color: white;
+    margin: 10px 10px 0px 10px;
+}
+nav ul{
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+    color: green;
+}
+nav ul li.selected {
+    background-color: grey;
+}
