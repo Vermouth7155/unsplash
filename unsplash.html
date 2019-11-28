@@ -10,12 +10,13 @@
 
 <style>
 .sp {
-    margin: 2px solid;
-    border-right: 1px solid;
+    border: 1px solid;
+    border-radius: 5px;
 }
 .jp {
     margin: 2px solid;
     background-color: green;
+    border-radius: 5px;
     color: white;
 }
 .dh {
@@ -27,14 +28,21 @@
     height: 600px;
     color: white;
 }
-input {
+.s1 {
     width: 350px;
     height: 30px;
     border: 1px solid gray;
     border-right: none;
-    border-radius: 4px;
+    border-radius: 15px;
 }
-button {
+.s2{
+    width: 500px;
+    height: 50px;
+    border: 1px solid gray;
+    border-right: none;
+    border-radius: 5px;
+}
+.b1 {
     position: relative;
     right: 2px;
     width: 60px;
@@ -43,18 +51,29 @@ button {
     color: gray;
     background: white;
     border: 1px solid;
-    border-radius: 4px;
+    border-radius: 15px;
 }
-.ft {
-    font-size: x-large;
+.b2{
     position: relative;
-    bottom: 0px;
+    right: 2px;
+    width: 100px;
+    height: 50px;
+    font-size: 14px;
+    color: gray;
+    background: white;
+    border: 1px solid;
+    border-radius: 5px;
 }
 .un {
     font-size: xx-large;
     text-align: center;
     position: relative;
     margin: auto;
+}
+.ft{
+    font-size: large;
+    position: relative;
+    bottom: 0px;
 }
 .ph {
     position: absolute;
@@ -69,6 +88,8 @@ button {
     text-align: right;
 }
 nav {
+  font-size: x-large;
+    width: 100%;
     background-color: white;
     margin: 10px 10px 0px 10px;
     text-align: center;
@@ -88,8 +109,18 @@ nav ul li a:link, nav ul li a:visited {
 nav ul li.selected {
     background-color: grey;
 }
-div{
-    background-color: grey;
+.cd {
+    background-color: slategrey;
+}
+.un {
+    top: 80px;
+}
+.lo {
+    border-left: 1px solid;
+}
+li {
+    color: slategray;
+    font-size: large;
 }
 </style>
 
@@ -100,14 +131,14 @@ div{
         <ul>
             <li><img src="images/unsplash.png"></li>
             <li>
-                <input type="" name="" id="" value="" />
-                <button>Search </button> 
+                <input class="s1" type="" name="" id="" value="" />
+                <button class="b1">Search </button> 
             </li>
             <li>Collections</li>
             <li>Explore</li>
             <li>...</li>
             <li class="sp">Submit a photo</li>
-            <li>Login</li>
+            <li class="lo">Login</li>
             <li class="jp">Join free</li>
         </ul>
     </nav>
@@ -137,27 +168,26 @@ div{
                 <br>
                 Powered by creators everywhere.
             </h3>
-            <img src="images/search.png">
-            <input type="" name="" id="" value="" />
-            <button>Search </button> 
+            <input class="s2" type="" name="" id="" value="" />
+            <button class="b2">Search </button> 
             <p><strong>Trending:</strong>
                 flower, wallpapers, backgrounds, happy, love
             </p>
         </div>
 
         <div class="ft">
-            <p class="ph">
+            <span class="ph">
                 Photo of the Day by Wengang zhai
-            </p>
-            <p class="rm">
+            </span>
+            <sapn class="rm">
                 Read more about the Unsplash license
-            </p>
-            <p class="sc">
+            </span>
+            <span class="sc">
                 <img src="images/blog.png">
                 SQUARESPACE
                 <br>
                 Create you website
-            </p>
+            </span>
         </div>
     </div>
 </body>
