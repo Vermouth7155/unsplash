@@ -14,18 +14,19 @@
     border-radius: 5px;
 }
 .jp {
+    padding-left: 20px;
     margin: 2px solid;
     background-color: green;
     border-radius: 5px;
     color: white;
 }
 .dh {
-    border-right: 1px aolid;
+    border-right: 1px solid;
 }
 .cd {
     background-image: url(./images/background.png);
     text-align: center;
-    height: 600px;
+    height: 696px;
     color: white;
 }
 .s1 {
@@ -73,22 +74,21 @@
 .ft{
     font-size: large;
     position: relative;
-    bottom: 0px;
 }
 .ph {
     position: absolute;
-    text-align: left;
+    top: 210px;
+    left: 0;
 }
 .rm {
     position: absolute;
-    text-align: center;
+    top: 210px;
 }
 .sc {
     position: absolute;
-    text-align: right;
+    top: 110px;
 }
 nav {
-  font-size: x-large;
     width: 100%;
     background-color: white;
     margin: 10px 10px 0px 10px;
@@ -101,7 +101,7 @@ nav ul{
 }
 nav ul li {
     display: inline;
-    padding: 5px 10px 5px 10px;
+    padding: 10px 20px 10px 20px;
 }
 nav ul li a:link, nav ul li a:visited {
     color: green;
@@ -113,7 +113,7 @@ nav ul li.selected {
     background-color: slategrey;
 }
 .un {
-    top: 80px;
+    top: 100px;
 }
 .lo {
     border-left: 1px solid;
@@ -122,6 +122,12 @@ li {
     color: slategray;
     font-size: large;
 }
+nav{
+  position: relative;
+}
+svg{
+  position: absolute;
+}
 </style>
 
 </head>
@@ -129,35 +135,45 @@ li {
 <body>
     <nav>
         <ul>
-            <li><img src="images/unsplash.png"></li>
+            <li><?xml version="1.0" standalone="no"?>
+              <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+              "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+              <svg width="100%" height="100%" version="1.1"
+              xmlns="http://www.w3.org/2000/svg">
+              <path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z" />
+              </svg>
+            </li>
+            <li>
+              <strong>Unsplash</strong> Photo for everyone
+            </li>
             <li>
                 <input class="s1" type="" name="" id="" value="" />
                 <button class="b1">Search </button> 
             </li>
-            <li>Collections</li>
-            <li>Explore</li>
-            <li>...</li>
-            <li class="sp">Submit a photo</li>
-            <li class="lo">Login</li>
-            <li class="jp">Join free</li>
+            <li> Collections </li>
+            <li> Explore </li>
+            <li> ... </li>
+            <li class="sp"> Submit a photo </li>
+            <li>   </li>
+            <li class="lo"> Login </li>
+            <li class="jp"> Join free </li>
         </ul>
     </nav>
 
     <nav>
         <ul>
-            <li class="dh">Editorial</li>
-            <li>Walipapers</li>
-            <li>Textures&Patterns</li>
-            <li>Film</li>
-            <li>Animals</li>
-            <li>Travel</li>
-            <li>Fashion</li>
-            <li>Food&Drin</li>
-            <li>Spiritnailty</li>
-            <li>Experimental</li>
-            <li>People</li>
-            <li>Health</li>
-            <li>Arts&</li>
+            <li class="dh"> Editorial </li>
+            <li> Walipapers </li>
+            <li> Textures&Patterns </li>
+            <li> Film </li>
+            <li> Animals </li>
+            <li> Travel </li>
+            <li> Fashion </li>
+            <li> Food&Drink </li>
+            <li> Spiritnailty </li>
+            <li> Experimental </li>
+            <li> People </li>
+            <li> Health </li>
         </ul>
     </nav>
 
@@ -183,7 +199,6 @@ li {
                 Read more about the Unsplash license
             </span>
             <span class="sc">
-                <img src="images/blog.png">
                 SQUARESPACE
                 <br>
                 Create you website
