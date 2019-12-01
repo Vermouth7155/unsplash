@@ -9,6 +9,10 @@
     <line type="text/css" rel="stylesheet" href="../unsplash.css"></line>
 
 <style>
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
 .sp {
     border: 1px solid;
     border-radius: 5px;
@@ -108,22 +112,62 @@ svg{
   position: absolute;
 }
 .img {
-    width: 800px;
+    position: relative;
+    margin-left: 100px;
+    margin-right: 100px;
     text-align: center;
-    margin: 80px;
+    margin-top: 80px;
+    width: 2100px;
+    height: auto;
 }
-.c1, .c2, .c3{
-    display: inline-block;
-    text-align: center;
-    width: 200px;
+.c1 {
+    float: left;
+    position: relative;
+    height: 2000px;
+    width: 650px;
+    /* display: inline-block; */
+    margin-right: 1px;
+}
+.c1 li{
+    position: relative;
+    float: left;
+    margin-top: 10px;
+    /* margin-right: 10px; */
+    list-style: none;
+
 }
 .c2 {
-    float: right;
+    position: relative;
+    height: auto;
+    width: 650px;
+    display: inline-block;
+    top :0;
+    /* margin-right: 5px; */
+    margin-right: 1px;
+
+
+}
+.c2 li {
+    position: absolute;
+    margin-left: 33.33%;
+    /* float: none; */
+    margin-top: 10px;
 }
 .c3 {
-    left: auto;
-    right: auto;
-    text-align: center;
+    float: right;
+    position: relative;
+    height: 2000px;
+    width: 650px;
+    /* display: inline-block; */
+    /* margin-right: 10px; */
+    margin-right: 1px;
+
+
+} 
+.c3 li {
+    position: absolute;
+    float: right;
+    margin-top: 10px;
 }
 </style>
 
@@ -202,14 +246,14 @@ svg{
     </div>
     <div class="img">
         <div class="c1">
-        <img src="images/01.jpg">
-        <img src="images/02.jpg">
-        <img src="images/03.jpg">
-        <img src="images/04.jpg">
-        <img src="images/05.jpg">
-        <img src="images/06.jpg">
-        <img src="images/07.jpg">
-        <img src="images/08.jpg">
+            <li><img src="images/01.jpg"></li>
+            <li><img src="images/02.jpg"></li>
+            <li><img src="images/03.jpg"></li>
+            <li><img src="images/04.jpg"></li>
+            <li><img src="images/05.jpg"></li>
+            <li><img src="images/06.jpg"></li>
+            <li><img src="images/07.jpg"></li>
+            <li><img src="images/08.jpg"></li>
         </div>
         <div class="c2">
         <img src="images/09.jpg">
