@@ -26,9 +26,8 @@
     border-right: 1px solid;
 }
 .cd {
-    background-image: url(./images/background.jpg);
     text-align: center;
-    height: 696px;
+    height: 560px;
     color: white;
 }
 .s1 {
@@ -51,26 +50,8 @@
     position: relative;
     margin: auto;
 }
-.ft{
-    font-size: large;
-    position: relative;
-}
-.ph {
-    position: absolute;
-    top: 200px;
-    left: 0;
-}
-.rm {
-    position: absolute;
-    top: 200px;
-}
-.sc {
-    position: absolute;
-    top: 200px;
-    right: 0;
-}
 nav {
-    width: 100%;
+    width: 1500px;
     background-color: white;
     margin: 10px 10px 0px 10px;
     text-align: center;
@@ -90,9 +71,6 @@ nav ul li a:link, nav ul li a:visited {
 nav ul li.selected {
     background-color: grey;
 }
-.cd {
-    background-color: slategrey;
-}
 .un {
     top: 100px;
 }
@@ -110,56 +88,52 @@ svg{
   position: absolute;
 }
 .img {
-    position: relative;
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 80px;
-    width: 1320px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 80px;
+}
+.c1, .c2, .c3 {
+  width: 430px;
+  display: inline-block;
+}
+div li {
+  margin: 15px;
+  list-style: none;
 }
 img {
-  margin-bottom: 10px;
+  width: 400px;
 }
-.c1 {
-    position: relative;
-    width: 33.33%;
-    /*margin-right: 1px; */
-    display: inline-block;
+.ft{
+    color: white;
 }
-.c1 li{
-    position: relative;
-    margin-top: 10px;
-    /* margin-right: 10px; */
-    list-style: none;
-    display: inline-block;
+.ph {
+    margin-right: 210px;
+    bottom: 20px;
+    left: 0px;
 }
-.c2 {
-    position: relative;
-    width: 33.33%;
-    display: inline-block;
-    top: 0;
-    /* margin-right: 5px;
-    margin-right: 1px; */
-    float: none;
+.rm {
+    margin-left: 210px;
+    margin-right: 210px;
+    text-align: center;
+    bottom: 20px;
 }
-.c2 li {
-    position: relative;
-    float: none;
-    margin-top: 10px;
-    list-style: none;
-    display: inline-block;
+.sc {
+    margin-left: 210px;
+    bottom: 20px;
+    right: 0px;
 }
-.c3 {
-    position: relative;
-    width: 33.33%;
-    display: inline-block;
-    /* margin-right: 10px;
-    margin-right: 1px; */
-} 
-.c3 li {
-    position: relative;
-    margin-top: 10px;
-    list-style: none;
-    display: inline-block;
+.all {
+  background-image: url(./images/background.jpg);
+}
+div span {
+  display: inline-block;
+}
+nav ul li p {
+  display: inline-block;
+}
+.span {
+  font-size: small;
 }
 </style>
 
@@ -177,7 +151,7 @@ img {
               </svg>
             </li>
             <li class="span">
-              <strong>Unsplash</strong> Photo for everyone
+              <p><strong>Unsplash</strong><br> Photo for everyone</p>
             </li>
             <li>
                 <input class="s1" value="   Search free high-resolution photos" />
@@ -210,7 +184,7 @@ img {
     </nav>
 
     <br>
-
+  <div class="all">
     <div class="cd">
         <div class="un">
             <h1>Unsplash</h1>
@@ -223,21 +197,27 @@ img {
                 flower, wallpapers, backgrounds, happy, love
             </p>
         </div>
-
-        <div class="ft">
-            <span class="ph">
-                Photo of the Day by Wengang zhai
-            </span>
-            <sapn class="rm">
-                Read more about the Unsplash license
-            </span>
-            <span class="sc">
-                SQUARESPACE
-                <br>
-                Create you website
-            </span>
-        </div>
     </div>
+
+    <div class="ft">
+
+        <span class="ph">
+            <strong>Photo of the Day</strong> by <strong>Unsplash zhai          </strong>
+        </span>
+
+        <sapn class="rm">
+                      Read more about the <strong>Unsplash license          </strong>
+        </span>
+
+        <span class="sc">
+            <strong>          SQUARESPACE</strong>
+            <br>
+            Create you website
+        </span>
+
+    </div>
+  </div>
+
     <div class="img">
         <div class="c1">
             <li><img src="images/01.jpg"></li>
@@ -248,25 +228,33 @@ img {
             <li><img src="images/06.jpg"></li>
             <li><img src="images/07.jpg"></li>
             <li><img src="images/08.jpg"></li>
+            <li><img src="images/25.jpg"></li>
+            <li><img src="images/28.jpg"></li>
         </div>
         <div class="c2">
-            <li><img src="images/09.jpg"></li>
-            <li><img src="images/10.jpg"></li>
             <li><img src="images/11.jpg"></li>
             <li><img src="images/12.jpg"></li>
+            <li><img src="images/09.jpg"></li>
+            <li><img src="images/10.jpg"></li>
             <li><img src="images/13.jpg"></li>
             <li><img src="images/14.jpg"></li>
             <li><img src="images/15.jpg"></li>
             <li><img src="images/16.jpg"></li>
+
+            <li><img src="images/29.jpg"></li>
         </div>
         <div class="c3">
-            <li><img src="images/17.jpg"></li>
-            <li><img src="images/18.jpg"></li>
+            <li><img src="images/26.jpg"></li>
+            <li><img src="images/27.jpg"></li>
             <li><img src="images/19.jpg"></li>
             <li><img src="images/20.jpg"></li>
             <li><img src="images/21.jpg"></li>
             <li><img src="images/22.jpg"></li>
             <li><img src="images/23.jpg"></li>
+            <li><img src="images/24.jpg"></li>
+            <li><img src="images/17.jpg"></li>
+            <li><img src="images/30.jpg"></li>
+            <li><img src="images/18.jpg"></li>
         </div>
     </div>
 </body>
