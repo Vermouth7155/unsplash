@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +22,11 @@
     color: white;
 }
 .dh {
+    border-bottom: 2px solid #000;
     border-right: 1px solid;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .cd {
     text-align: center;
@@ -31,21 +34,22 @@
     color: white;
 }
 .s1 {
-    width: 350px;
-    height: 30px;
-    border: 1px solid gray;
+    width: 500px;
+    height: 35px;
+    background-color: rgb(231, 231, 231);
+    border: 1px solid rgb(231, 231, 231);
     border-right: none;
     border-radius: 15px;
 }
 .s2{
-    width: 500px;
+    width: 700px;
     height: 50px;
     border: 1px solid gray;
     border-right: none;
     border-radius: 5px;
 }
 .un {
-    font-size: xx-large;
+    font-size: x-large;
     text-align: center;
     position: relative;
     margin: auto;
@@ -71,7 +75,9 @@ nav ul li.selected {
     background-color: grey;
 }
 .un {
-    top: 100px;
+    top: 200px;
+    left: 400px;
+    text-align: left;
 }
 .lo {
     border-left: 1px solid;
@@ -96,9 +102,10 @@ svg{
   margin-top: 80px;
   width: 430px;
   display: inline-block;
+  vertical-align: top;
 }
 div li {
-  margin: 15px;
+  margin: 30px 15px;
   list-style: none;
 }
 img {
@@ -136,9 +143,7 @@ nav ul li p {
   font-size: small;
 }
 </style>
-
 </head>
-
 <body>
     <nav>
         <ul>
@@ -165,7 +170,6 @@ nav ul li p {
             <li class="lo">   Login   </li>
             <li class="jp">   Join free   </li>
         </ul>
-
         <ul>
             <li class="dh"> Editorial </li>
             <li> Walipapers </li>
@@ -178,10 +182,9 @@ nav ul li p {
             <li> Spiritnailty </li>
             <li> Experimental </li>
             <li> People </li>
+            <li> Health </li>
         </ul>
     </nav>
-
-    <br>
   <div class="all">
     <div class="cd">
         <div class="un">
@@ -196,26 +199,20 @@ nav ul li p {
             </p>
         </div>
     </div>
-
     <div class="ft">
-
         <span class="ph">
             <strong>Photo of the Day</strong> by <strong>Unsplash zhai          </strong>
         </span>
-
         <sapn class="rm">
                       Read more about the <strong>Unsplash license          </strong>
         </span>
-
         <span class="sc">
             <strong>          SQUARESPACE</strong>
             <br>
             Create you website
         </span>
-
     </div>
   </div>
-
     <div class="img">
         <div class="c1">
             <li><img src="images/a.jpg"></li>
@@ -227,8 +224,9 @@ nav ul li p {
             <li><img src="images/05.jpg"></li>
             <li><img src="images/06.jpg"></li>
             <li><img src="images/07.jpg"></li>
-            <li><img src="images/25.jpg"></li>
+            <li><img src="images/29.jpg"></li>
             <li><img src="images/28.jpg"></li>
+            <li><img src="images/08.jpg"></li>
         </div>
         <div class="c2">
             <li><img src="images/b.jpg"></li>
@@ -241,7 +239,8 @@ nav ul li p {
             <li><img src="images/14.jpg"></li>
             <li><img src="images/15.jpg"></li>
             <li><img src="images/16.jpg"></li>
-            <li><img src="images/29.jpg"></li>
+            <li><img src="images/25.jpg"></li>
+            <li><img src="images/20.jpg"></li>
         </div>
         <div class="c3">
             <li><img src="images/c.jpg"></li>
@@ -255,8 +254,8 @@ nav ul li p {
             <li><img src="images/17.jpg"></li>
             <li><img src="images/30.jpg"></li>
             <li><img src="images/18.jpg"></li>
+            <li><img src="images/24.jpg"></li>
         </div>
     </div>
 </body>
-
 </html>
