@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <title>unsplash</title>
+
 <style>
     *{
         padding: 0px;
         margin: 0px;
     }
+
 .sp {
     border: 1px solid;
     border-radius: 5px;
 }
+
 .jp {
     padding-left: 20px;
     margin: 2px solid;
@@ -21,18 +26,22 @@
     border-radius: 5px;
     color: white;
 }
+
 .dh {
+    color: black;
     border-bottom: 2px solid #000;
     border-right: 1px solid;
     display: inline-block;
     flex-direction: column;
     justify-content: space-between;
 }
+
 .cd {
     text-align: center;
     height: 560px;
     color: white;
 }
+
 .s1 {
     width: 500px;
     height: 35px;
@@ -41,6 +50,7 @@
     border-right: none;
     border-radius: 15px;
 }
+
 .s2{
     width: 700px;
     height: 50px;
@@ -48,103 +58,134 @@
     border-right: none;
     border-radius: 5px;
 }
+
 .un {
     font-size: x-large;
     text-align: center;
     position: relative;
     margin: auto;
 }
+
 nav {
     width: 100%;
     background-color: white;
     text-align: center;
 }
+
 nav ul{
     margin: 0px;
     list-style-type: none;
     padding: 5px 0px 5px 0px;
 }
+
 nav ul li {
     display: inline;
+    color: gray;
     padding: 10px 20px 10px 20px;
 }
+
 nav ul li a:link, nav ul li a:visited {
     color: green;
 }
+
 nav ul li.selected {
     background-color: grey;
 }
+
 .un {
     top: 200px;
     left: 400px;
     text-align: left;
 }
+
 .lo {
     border-left: 1px solid;
 }
+
 li {
     color: black;
     font-size: large;
 }
+
 nav{
   position: fixed;
   top: 0;
 }
+
 svg{
   position: absolute;
 }
+
 .img {
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
 }
+
 .c1, .c2, .c3 {
   margin-top: 80px;
   width: 430px;
   display: inline-block;
   vertical-align: top;
 }
+
 div li {
   margin: 30px 15px;
   list-style: none;
 }
+
 img {
   width: 400px;
+  cursor: pointer;
 }
+
 .ft{
     color: white;
 }
+
 .ph {
     margin-right: 210px;
     bottom: 20px;
     left: 0px;
 }
+
 .rm {
     margin-left: 210px;
     margin-right: 210px;
     text-align: center;
     bottom: 20px;
 }
+
 .sc {
     margin-left: 210px;
     bottom: 20px;
     right: 0px;
 }
+
 .all {
-  background-image: url(./images/background.jpg);
+    background-image: url(./images/background.jpg);
+    background-position: center center;
 }
+
 div span {
-  display: inline-block;
+    display: inline-block;
 }
+
 nav ul li p {
-  display: inline-block;
+    display: inline-block;
 }
+
 .span {
-  font-size: small;
+    color: black;
+    font-size: small;
 }
+
 </style>
+
 </head>
+
 <body>
+
     <nav>
         <ul>
             <li><?xml version="1.0" standalone="no"?>
@@ -159,7 +200,8 @@ nav ul li p {
               <p><strong> Unsplash</strong><br> Photo for everyone </p>
             </li>
             <li>
-                <input class="s1" value="   Search free high-resolution photos" />
+                <input class="s1" value="   Search free high-resolution photos"
+                    style="color: gray;" />
             </li>
             <li>   </li>
             <li>   Collections   </li>
@@ -185,6 +227,7 @@ nav ul li p {
             <li> Health </li>
         </ul>
     </nav>
+
   <div class="all">
     <div class="cd">
         <div class="un">
@@ -193,7 +236,8 @@ nav ul li p {
                 <br>
                 Powered by creators everywhere.
             </h3>
-            <input class="s2" value="   Search free high-resolution photos" />
+            <input class="s2" value="   Search free high-resolution photos"
+                style="font-size: large; color: gray;" />
             <p><strong>Trending:</strong>
                 flower, wallpapers, backgrounds, happy, love
             </p>
@@ -213,49 +257,80 @@ nav ul li p {
         </span>
     </div>
   </div>
+
     <div class="img">
+
         <div class="c1">
-            <li><img src="images/a.jpg"></li>
-            <li><img src="images/a1.jpg"></li>
-            <li><img src="images/01.jpg"></li>
-            <li><img src="images/02.jpg"></li>
-            <li><img src="images/03.jpg"></li>
-            <li><img src="images/04.jpg"></li>
-            <li><img src="images/05.jpg"></li>
-            <li><img src="images/06.jpg"></li>
-            <li><img src="images/07.jpg"></li>
-            <li><img src="images/29.jpg"></li>
-            <li><img src="images/28.jpg"></li>
-            <li><img src="images/08.jpg"></li>
+            <li><img src="images/01.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/02.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/03.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/04.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/05.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/06.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/07.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/29.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/28.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/08.jpg"
+                title="View the photo by Vermouth"></li>
         </div>
+
         <div class="c2">
-            <li><img src="images/b.jpg"></li>
-            <li><img src="images/b1.jpg"></li>
-            <li><img src="images/11.jpg"></li>
-            <li><img src="images/12.jpg"></li>
-            <li><img src="images/09.jpg"></li>
-            <li><img src="images/10.jpg"></li>
-            <li><img src="images/13.jpg"></li>
-            <li><img src="images/14.jpg"></li>
-            <li><img src="images/15.jpg"></li>
-            <li><img src="images/16.jpg"></li>
-            <li><img src="images/25.jpg"></li>
-            <li><img src="images/20.jpg"></li>
+            <li><img src="images/11.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/12.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/09.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/10.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/13.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/14.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/15.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/16.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/25.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/20.jpg"
+                title="View the photo by Vermouth"></li>
         </div>
+
         <div class="c3">
-            <li><img src="images/c.jpg"></li>
-            <li><img src="images/c1.jpg"></li>
-            <li><img src="images/26.jpg"></li>
-            <li><img src="images/27.jpg"></li>
-            <li><img src="images/19.jpg"></li>
-            <li><img src="images/21.jpg"></li>
-            <li><img src="images/22.jpg"></li>
-            <li><img src="images/23.jpg"></li>
-            <li><img src="images/17.jpg"></li>
-            <li><img src="images/30.jpg"></li>
-            <li><img src="images/18.jpg"></li>
-            <li><img src="images/24.jpg"></li>
+            <li><img src="images/26.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/27.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/19.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/21.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/22.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/23.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/17.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/30.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/18.jpg"
+                title="View the photo by Vermouth"></li>
+            <li><img src="images/24.jpg"
+                title="View the photo by Vermouth"></li>
         </div>
+
     </div>
+
 </body>
+
 </html>
